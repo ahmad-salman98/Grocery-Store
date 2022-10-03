@@ -1,0 +1,135 @@
+.profile {
+    padding: 10px;
+    /* width: 90% !important; */
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    /* flex-direction: row !important; */
+    flex-direction: row;
+    width: 90%
+}
+
+/* From uiverse.io by @alexruix */
+.input {
+    max-width: 190px;
+    height: 44px;
+    background-color: #CACACC;
+    color: black;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    margin-left: 20px;
+    transition: border-color .3s cubic-bezier(.25, .01, .25, 1) 0s, color .3s cubic-bezier(.25, .01, .25, 1) 0s, background .2s cubic-bezier(.25, .01, .25, 1) 0s;
+}
+
+.label {
+    display: block;
+    margin-bottom: .3rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    transition: color .3s cubic-bezier(.25, .01, .25, 1) 0s;
+}
+
+/* .input-group {} */
+
+.input:hover,
+.input:focus,
+.input-group:hover .input {
+    outline: none;
+    border-color: #05060f;
+    display: flex;
+
+}
+
+.input-group:hover .label,
+.input:focus {
+    color: #05060fc2;
+
+}
+
+.button {
+    text-align: center;
+}
+
+.input-group {
+    justify-content: space-between;
+}
+
+.input-group input {
+    width: 60%;
+}
+
+.input-group label {
+    width: 20%;
+}
+
+#buttons {
+    width: 100px;
+    height: 34px;
+
+}
+
+.list-group {
+    width: 70% !important;
+}
+
+.profile_info {
+    font-weight: bold;
+}
+
+.profile_label {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+}
+
+.profile_info:hover,
+.user_orders:hover {
+    cursor: pointer;
+}
+
+.buttons {
+    list-style-type: none;
+    border-right: 1px solid gray;
+    margin-right: 1%;
+    height: 300px;
+    flex-direction: row;
+    width: 20%
+}
+
+table {
+    display: none;
+
+}
+
+tr,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 0.5% 0%;
+}
+
+th {
+    background-color: green;
+}
+
+h1 {
+    margin-left: 14%;
+}
+
+@media(min-width: 375px),
+(max-width: 1023px) {
+
+    .input-group label {
+        width: 50%;
+        margin-right: 3%;
+    }
+
+    .buttons {
+
+        width: 40%;
+    }
+}
