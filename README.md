@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 89f7edd7c59b2e07cc76a1138226ea124b950840
 #Dokkaneh
-#Description : okaneh is a full functionality website incloud fresh Vegetables and fruit for users which insure for them a great user experience by the brilliant pages of this website 
-Dokkaneh designed by a proficinal group of programmers (Ahmad Salman (scrum master )/ Manar Olaimat (Product owner) / Ibrahim Khmaiseh/Mohammad Abd-Alaziz /Ahmad Zahran/Nour shatnawi)
-All these brilliant minds created a fabulous website Using these Programming languages (HTML/CSS/JS/SQL/PHP) we Also got a  hand from iron using bootstrap which makes our website full responsivenes
+#Description :Dokkaneh is a full responsive online store specialized in selling food, groceries, meat and other goods.
+this website was designed and published as a requirement to finish PHP material. 
+the uesed technologies are: [HTML, CSS, JS, PHP, MYSQL].
+the user Tools: [Github, Figma, Trello, PowePoit]
 
 #Wirfram & mockup [Dokkaneh.pdf](https://github.com/Dokkaneh/ecommerce/files/9699592/Dokkaneh.pdf)
 
